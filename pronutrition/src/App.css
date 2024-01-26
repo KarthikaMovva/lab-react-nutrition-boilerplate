@@ -1,0 +1,48 @@
+.Searchbar{
+  /* display: flex; */
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+input[type="text"]{
+  height: 30px;
+  border: 2px solid blueviolet;
+  width: 200px;
+}
+.box,.media,.calculate{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+img{
+  height: 100px;
+  width: 130px;
+}
+.field{
+  display: flex;
+  border: 3px solid blueviolet;
+}
+.box{
+  /* border: 1px solid black; */
+  margin-bottom: 20px;
+}
+.media{
+background-color: rgb(207, 209, 209);
+border: 1px solid black;
+padding-right: 30px;
+gap: 100px;
+}
+.button{
+  color: white;
+  background-color: blueviolet;
+  border: 1px solid blueviolet;
+  cursor: pointer;
+}
+.reset{
+  height: 40px;
+  width: 80px;
+  border: 3px solid blueviolet;
+  background-color: rgb(185, 129, 249);
+  color: white;
+  cursor: pointer;
+}
